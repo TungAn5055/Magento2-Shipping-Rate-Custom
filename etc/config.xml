@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <customshippingrate>
+                <active>1</active>
+                <title>Per Item Special Shipping Price</title>
+                <name>Shipping Per Special Method</name>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>15</sort_order>
+                <model>Mgroup\ShippingRate\Model\Carrier\CustomShippingRate</model>
+            </customshippingrate>
+        </carriers>
+        <mgroup_perspecshipping>
+            <general>
+                <shipping_rate_fee_product>0-149:
+150-450:275
+451-750:385
+751-1500:475
+1501-:599</shipping_rate_fee_product>
+            </general>
+        </mgroup_perspecshipping>
+    </default>
+</config>

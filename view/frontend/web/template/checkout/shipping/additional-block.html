@@ -1,0 +1,41 @@
+<!-- ko if: getStatus() == true -->
+<div>
+    <li id="opc-shipping_method" class="checkout-shipping-method" >
+        <div class="checkout-shipping-method">
+            <tr class="">
+                <th><b data-bind="text: getTitle()"></b></th>
+            </tr>
+            <div class="step-content amcheckout-content" >
+                <div class="amcheckout-wrapper">
+                    <div id="checkout-step-shipping_method">
+                        <form >
+                            <div id="checkout-shipping-method-load">
+                                <table class="table-checkout-shipping-method amcheckout-shipping-methods">
+                                    <thead class="amcheckout-header">
+                                    </thead>
+                                    <tbody class="amcheckout-items">
+                                    <tr class="row amcheckout-method">
+                                        <td class="col col-method">
+                                            <input type="radio"
+                                                   class="radio"
+                                                   checked />
+                                            <label ></label>
+                                        </td>
+                                        <td class="col col-price">
+                                            <span class="price" data-bind="text: getFee()"></span>
+                                        </td>
+                                        <td class="col col-method" data-bind="text: getName()"></td>
+
+                                        <td class="col col-carrier" data-bind="text: getTitle()"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</div>
+<!-- /ko -->
