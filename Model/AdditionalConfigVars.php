@@ -1,6 +1,6 @@
 <?php
 
-namespace Mgroup\ShippingRate\Model;
+namespace An\ShippingRate\Model;
 
 use \Magento\Checkout\Model\ConfigProviderInterface;
 

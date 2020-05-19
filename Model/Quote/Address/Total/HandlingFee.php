@@ -1,5 +1,5 @@
 <?php
-namespace Mgroup\ShippingRate\Model\Quote\Address\Total;
+namespace An\ShippingRate\Model\Quote\Address\Total;
 
 class HandlingFee extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mgroup\ShippingRate\Model\Carrier;
+namespace An\ShippingRate\Model\Carrier;
 
 use Magento\Quote\Model\Quote\Address\RateRequest;
 use Magento\Shipping\Model\Carrier\AbstractCarrier;

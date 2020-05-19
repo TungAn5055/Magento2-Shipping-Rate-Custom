@@ -1,5 +1,5 @@
 <?php
-namespace Mgroup\ShippingRate\Block\Order;
+namespace An\ShippingRate\Block\Order;
 use Magento\Sales\Model\Order;
 
 class Totals extends \Magento\Sales\Block\Order\Totals

@@ -10,7 +10,7 @@ define(
         var perItemShipping = window.checkoutConfig.perItemShipping;
         return Component.extend({
             defaults: {
-                template: 'Mgroup_ShippingRate/checkout/summary/per-item-spec-shipping-fee'
+                template: 'An_ShippingRate/checkout/summary/per-item-spec-shipping-fee'
             },
 
             /**

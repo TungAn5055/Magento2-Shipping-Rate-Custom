@@ -1,18 +1,18 @@
 <?php
 
-namespace Mgroup\ShippingRate\Controller\Adminhtml\Update;
+namespace An\ShippingRate\Controller\Adminhtml\Update;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory;
 use Magento\Framework\Controller\ResultFactory;
-use Mgroup\ShippingRate\Helper\Data;
+use An\ShippingRate\Helper\Data;
 use mysql_xdevapi\Exception;
 use Magento\Catalog\Api\ProductRepositoryInterface;
 
 /**
  * Class Config
- * @package Mgroup\ShippingRate\Controller\Adminhtml\Update
+ * @package An\ShippingRate\Controller\Adminhtml\Update
  */
 class Config extends Action
 {

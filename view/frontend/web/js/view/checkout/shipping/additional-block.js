@@ -8,7 +8,7 @@ define([
 
     return Component.extend({
         defaults: {
-            template: 'Mgroup_ShippingRate/checkout/shipping/additional-block'
+            template: 'An_ShippingRate/checkout/shipping/additional-block'
         },
 
         /**

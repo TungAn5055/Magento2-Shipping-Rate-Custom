@@ -8,10 +8,10 @@
                 <name>Shipping Per Special Method</name>
                 <sallowspecific>0</sallowspecific>
                 <sort_order>15</sort_order>
-                <model>Mgroup\ShippingRate\Model\Carrier\CustomShippingRate</model>
+                <model>An\ShippingRate\Model\Carrier\CustomShippingRate</model>
             </customshippingrate>
         </carriers>
-        <mgroup_perspecshipping>
+        <An_perspecshipping>
             <general>
                 <shipping_rate_fee_product>0-149:
 150-450:275
@@ -19,6 +19,6 @@
 751-1500:475
 1501-:599</shipping_rate_fee_product>
             </general>
-        </mgroup_perspecshipping>
+        </An_perspecshipping>
     </default>
 </config>

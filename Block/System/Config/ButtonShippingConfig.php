@@ -1,6 +1,6 @@
 <?php
 
-namespace Mgroup\ShippingRate\Block\System\Config;
+namespace An\ShippingRate\Block\System\Config;
 
 use Magento\Config\Block\System\Config\Form\Field;
 use Magento\Backend\Block\Template\Context;
@@ -8,7 +8,7 @@ use Magento\Framework\Data\Form\Element\AbstractElement;
 
 class ButtonShippingConfig extends Field
 {
-    protected $_template = 'Mgroup_ShippingRate::system/config/button_config.phtml';
+    protected $_template = 'An_ShippingRate::system/config/button_config.phtml';
 
     public function __construct(
         Context $context,

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mgroup\ShippingRate\Plugin;
+namespace An\ShippingRate\Plugin;
 
 class ShippingMethod
 {

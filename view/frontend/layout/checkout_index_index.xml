@@ -18,7 +18,7 @@
                                                             <item name="displayArea" xsi:type="string">shippingAdditional</item>
                                                             <item name="children" xsi:type="array">
                                                                 <item name="additional_block" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Mgroup_ShippingRate/js/view/checkout/shipping/additional-block</item>
+                                                                    <item name="component" xsi:type="string">An_ShippingRate/js/view/checkout/shipping/additional-block</item>
                                                                 </item>
                                                             </item>
                                                         </item>
@@ -35,10 +35,10 @@
                                                 <item name="totals" xsi:type="array">
                                                     <item name="children" xsi:type="array">
                                                         <item name="perItemSpecShippingFee" xsi:type="array">
-                                                            <item name="component" xsi:type="string">Mgroup_ShippingRate/js/view/checkout/cart/totals/per-item-spec-shipping-fee</item>
+                                                            <item name="component" xsi:type="string">An_ShippingRate/js/view/checkout/cart/totals/per-item-spec-shipping-fee</item>
                                                             <item name="sortOrder" xsi:type="string">20</item>
                                                             <item name="config" xsi:type="array">
-                                                            <item name="template" xsi:type="string">Mgroup_ShippingRate/checkout/cart/totals/per-item-spec-shipping-fee</item>
+                                                            <item name="template" xsi:type="string">An_ShippingRate/checkout/cart/totals/per-item-spec-shipping-fee</item>
                                                             <item name="title" xsi:type="string" translate="true">Handling Fee</item>
                                                             </item>
                                                         </item>

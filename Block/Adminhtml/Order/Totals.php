@@ -1,6 +1,6 @@
 <?php
 
-namespace Mgroup\ShippingRate\Block\Adminhtml\Order;
+namespace An\ShippingRate\Block\Adminhtml\Order;
 
 /**
  * Adminhtml order totals block

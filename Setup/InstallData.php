@@ -1,5 +1,5 @@
 <?php
-namespace Mgroup\ShippingRate\Setup;
+namespace An\ShippingRate\Setup;
 
 use Magento\Catalog\Model\Resource\Eav\Attribute;
 use Magento\Eav\Setup\EavSetupFactory;

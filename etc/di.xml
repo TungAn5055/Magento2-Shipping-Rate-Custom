@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Magento\Sales\Block\Order\Totals" type="Mgroup\ShippingRate\Block\Order\Totals" />
-    <preference for="Magento\Sales\Block\Adminhtml\Order\Totals" type="Mgroup\ShippingRate\Block\Adminhtml\Order\Totals" />
+    <preference for="Magento\Sales\Block\Order\Totals" type="An\ShippingRate\Block\Order\Totals" />
+    <preference for="Magento\Sales\Block\Adminhtml\Order\Totals" type="An\ShippingRate\Block\Adminhtml\Order\Totals" />
     <type name="Magento\Shipping\Model\Rate\Result">
-        <plugin name="restrict_shippingmethod" type="Mgroup\ShippingRate\Plugin\ShippingMethod" sortOrder="500" />
-        <plugin name="restrict_shippingmethod_all" type="Mgroup\ShippingRate\Plugin\GetAllRates" sortOrder="600" />
+        <plugin name="restrict_shippingmethod" type="An\ShippingRate\Plugin\ShippingMethod" sortOrder="500" />
+        <plugin name="restrict_shippingmethod_all" type="An\ShippingRate\Plugin\GetAllRates" sortOrder="600" />
     </type>
 </config>

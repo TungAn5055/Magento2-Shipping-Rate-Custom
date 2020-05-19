@@ -35,17 +35,17 @@
             </group>
         </section>
 
-        <section id="mgroup_perspecshipping" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label">
+        <section id="An_perspecshipping" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label">
             <label>Shipping Rate</label>
-            <tab>mgroup</tab>
-            <resource>Mgroup_ShippingRate::perspecshipping</resource>
+            <tab>An</tab>
+            <resource>An_ShippingRate::perspecshipping</resource>
             <group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
                 <field id="shipping_rate_fee_product" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="10" translate="label" type="textarea">
                     <label>Shipping Rate Fee For Product</label>
                     <comment><![CDATA[Use this format: WeightA-WeightB:Price. <br/>New line for next rate]]></comment>
                 </field>
                 <field id="button_update_shipping_rate_config" translate="label" type="button" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <frontend_model>Mgroup\ShippingRate\Block\System\Config\ButtonShippingConfig</frontend_model>
+                    <frontend_model>An\ShippingRate\Block\System\Config\ButtonShippingConfig</frontend_model>
                 </field>
             </group>
         </section>

@@ -1,16 +1,16 @@
 <?php
 
-namespace Mgroup\ShippingRate\Helper;
+namespace An\ShippingRate\Helper;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
 /**
  * Class Data
- * @package Mgroup\ShippingRate\Helper
+ * @package An\ShippingRate\Helper
  */
 class Data
 {
-    const CONFIG_SHIPPING_RATE = 'mgroup_perspecshipping/general/shipping_rate_fee_product';
+    const CONFIG_SHIPPING_RATE = 'An_perspecshipping/general/shipping_rate_fee_product';
 
     /**
      * @var ScopeConfigInterface
